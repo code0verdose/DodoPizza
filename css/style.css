@@ -15,6 +15,11 @@ body {
   color: #000;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .container {
   max-width: 1060px;
   padding: 0 1em;
@@ -362,10 +367,9 @@ template {
 
 .header {
   padding-top: 1.5em;
-  padding-bottom: .5em;
 }
 
-.wrapper {
+.logo-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -423,5 +427,26 @@ template {
   font-size: .93em;
   line-height: 1.33em;
   color: #999999;
+}
+
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__link {
+  font-size: 0.87em;
+  line-height: 1.35em;
+  margin-right: 1.71em;
+  transition: .2s;
+}
+
+.navbar__link:hover {
+  color: #F96900;
+  transition: .2s;
+}
+
+.navbar__link:last-child {
+  margin-right: 0;
 }
 /*# sourceMappingURL=style.css.map */
