@@ -358,4 +358,49 @@ template {
 [hidden] {
   display: none;
 }
+
+.header {
+  padding-top: 1.56rem;
+  padding-bottom: .5rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo__text {
+  display: flex;
+  flex-direction: column;
+  margin-top: .18em;
+}
+
+.logo__letter {
+  display: block;
+  width: 12em;
+  height: 1.37em;
+}
+
+.logo__picture {
+  display: block;
+  width: 2.68em;
+  height: 2.75em;
+  margin-right: .93em;
+}
+
+.logo__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.logo__sub {
+  margin-top: .43em;
+  line-height: 1em;
+  font-size: .75em;
+}
 /*# sourceMappingURL=style.css.map */
