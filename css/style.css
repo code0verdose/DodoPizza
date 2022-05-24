@@ -22,7 +22,6 @@ a {
 
 .container {
   max-width: 1060px;
-  padding: 0 1em;
   margin: 0 auto;
 }
 
@@ -517,5 +516,63 @@ template {
 
 .slider__img {
   border-radius: 1.33em;
+}
+
+.popular {
+  padding-top: 3.125em;
+  padding-bottom: 1.25em;
+}
+
+.popular__title {
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 1.375em;
+  margin-bottom: 1.25em;
+}
+
+.popular__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular__btn {
+  cursor: pointer;
+  border: 0;
+  background: none;
+}
+
+.popular__item {
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0 0.375em 1.56em rgba(6, 5, 50, 0.05);
+  border-radius: 0.625em;
+  padding: 0.875em 1.125em;
+  min-width: 15.625em;
+}
+
+.popular__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.popular__picture {
+  margin-right: 1.375em;
+}
+
+.popular__text {
+  text-align: left;
+}
+
+.popular__name {
+  font-size: 0.875em;
+  line-height: 1.35em;
+  margin-bottom: 0.28em;
+}
+
+.popular__price {
+  font-weight: 600;
+  line-height: 1.375em;
 }
 /*# sourceMappingURL=style.css.map */
