@@ -476,6 +476,10 @@ template {
   transition: .2s;
 }
 
+.btn--orange:active {
+  color: #ffa566;
+}
+
 .btn--light {
   background-color: #FFF0E6;
   color: #D15700;
@@ -485,5 +489,10 @@ template {
 .btn--light:hover {
   background-color: #ffd2b3;
   transition: .2s;
+}
+
+.btn--light:active {
+  color: #ffd2b3;
+  background-color: #fff0e6;
 }
 /*# sourceMappingURL=style.css.map */
