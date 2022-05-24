@@ -373,6 +373,7 @@ template {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1.2em;
 }
 
 .logo {
@@ -427,6 +428,11 @@ template {
   font-size: .93em;
   line-height: 1.33em;
   color: #999999;
+}
+
+.navbar {
+  padding-top: .7em;
+  padding-bottom: .7em;
 }
 
 .navbar-wrapper {
