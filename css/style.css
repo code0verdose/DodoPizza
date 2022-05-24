@@ -539,13 +539,21 @@ template {
   cursor: pointer;
   border: 0;
   background: none;
+  box-shadow: rgba(6, 5, 50, 0.15) 0 0.25em 1.375em -0.375em;
+  border-radius: 0.625em;
+  transition: box-shadow 150ms ease-out 0s;
+}
+
+.popular__btn:hover {
+  box-shadow: rgba(6, 5, 50, 0.15) 0 0 0.75em -0.25em;
+  border-radius: 0.625em;
+  transition: box-shadow 150ms ease-out 0s;
 }
 
 .popular__item {
   display: flex;
   align-items: center;
   background: #FFFFFF;
-  box-shadow: 0 0.375em 1.56em rgba(6, 5, 50, 0.05);
   border-radius: 0.625em;
   padding: 0.875em 1.125em;
   min-width: 15.625em;
