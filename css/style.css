@@ -373,7 +373,7 @@ template {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1.2em;
+  margin-bottom: 1.3em;
 }
 
 .logo {
@@ -431,8 +431,8 @@ template {
 }
 
 .navbar {
-  padding-top: .7em;
-  padding-bottom: .7em;
+  padding-top: .6em;
+  padding-bottom: .6em;
 }
 
 .navbar-wrapper {
