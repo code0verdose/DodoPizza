@@ -17,6 +17,7 @@ body {
 
 .container {
   max-width: 1060px;
+  padding: 0 1em;
   margin: 0 auto;
 }
 
@@ -360,13 +361,14 @@ template {
 }
 
 .header {
-  padding-top: 1.56rem;
-  padding-bottom: .5rem;
+  padding-top: 1.5em;
+  padding-bottom: .5em;
 }
 
 .wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -402,5 +404,24 @@ template {
   margin-top: .43em;
   line-height: 1em;
   font-size: .75em;
+  color: #343434;
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.number__phone {
+  font-weight: 600;
+  font-size: 1.12em;
+  line-height: 1.38em;
+}
+
+.number__sub {
+  font-size: .93em;
+  line-height: 1.33em;
+  color: #999999;
 }
 /*# sourceMappingURL=style.css.map */
