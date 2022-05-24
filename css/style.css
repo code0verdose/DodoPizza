@@ -501,4 +501,21 @@ template {
   color: #ffd2b3;
   background-color: #fff0e6;
 }
+
+.slider {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+}
+
+.slider__wrapper {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.slider__img {
+  border-radius: 1.33em;
+}
 /*# sourceMappingURL=style.css.map */
