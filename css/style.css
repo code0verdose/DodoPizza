@@ -432,6 +432,7 @@ template {
 .navbar-wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .navbar__link {
@@ -448,5 +449,41 @@ template {
 
 .navbar__link:last-child {
   margin-right: 0;
+}
+
+.navbar__cart {
+  padding: 0.5625em 1.25em;
+}
+
+.btn {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 1.37em;
+  color: inherit;
+  border: none;
+  border-radius: 1000em;
+}
+
+.btn--orange {
+  background-color: #F96900;
+  color: #FFF;
+  transition: .2s;
+}
+
+.btn--orange:hover {
+  background-color: #e86100;
+  transition: .2s;
+}
+
+.btn--light {
+  background-color: #FFF0E6;
+  color: #D15700;
+  transition: .2s;
+}
+
+.btn--light:hover {
+  background-color: #ffd2b3;
+  transition: .2s;
 }
 /*# sourceMappingURL=style.css.map */
