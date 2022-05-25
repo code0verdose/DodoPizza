@@ -623,7 +623,6 @@ template {
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  min-height: 23.125em;
 }
 
 .item__picture {
@@ -648,6 +647,7 @@ template {
   font-size: 1.25em;
   line-height: 1.35em;
   margin-bottom: .5em;
+  margin-right: 2.45em;
 }
 
 .item__desc {
@@ -656,6 +656,7 @@ template {
   line-height: 1.35em;
   color: #73798C;
   margin-bottom: .78em;
+  margin-right: 1.07em;
 }
 
 .item__footer {
@@ -678,9 +679,17 @@ template {
   padding-bottom: 1.25em;
 }
 
+.combo__item:last-child > p {
+  margin-bottom: 1.42em;
+}
+
 .snack {
   padding-top: 3.125em;
   padding-bottom: 1.25em;
+}
+
+.snack__item p {
+  margin-bottom: 1.42em;
 }
 
 .desserts {
@@ -688,8 +697,16 @@ template {
   padding-bottom: 1.25em;
 }
 
+.desserts__item p {
+  margin-bottom: 1.42em;
+}
+
 .drinks {
   padding-top: 3.125em;
   padding-bottom: 1.25em;
+}
+
+.drinks__item p {
+  margin-bottom: 1.42em;
 }
 /*# sourceMappingURL=style.css.map */
