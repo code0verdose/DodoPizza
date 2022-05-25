@@ -432,6 +432,12 @@ template {
 .navbar {
   padding-top: .6em;
   padding-bottom: .6em;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: #fff;
 }
 
 .navbar-wrapper {
