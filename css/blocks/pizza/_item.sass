@@ -1,0 +1,36 @@
+.item
+  display: flex
+  flex-direction: column
+  cursor: pointer
+  &__picture
+    margin: 0 auto
+    margin-bottom: .3125em
+    position: relative
+    transition: transform .2s ease-out
+    &:hover
+      transform: translateY(0.1875em)
+  &__img
+    display: block
+    width: 100%
+    height: auto
+    object-fit: contain
+  &__title
+    font-size: 1.25em
+    line-height: 1.35em
+    margin-bottom: .5em
+  &__desc
+    font-weight: 400
+    font-size: .875em
+    line-height: 1.35em
+    color: $textSecondary
+    margin-bottom: .78em
+  &__footer
+    margin-top: auto
+    display: flex
+    align-items: center
+    justify-content: space-between
+  &__price
+    line-height: 1.375em
+
+.btn--item
+  margin-right: 1.25em

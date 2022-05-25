@@ -432,6 +432,12 @@ template {
 .navbar {
   padding-top: .6em;
   padding-bottom: .6em;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: #fff;
 }
 
 .navbar-wrapper {
@@ -499,6 +505,11 @@ template {
 .btn--light:active {
   color: #ffd2b3;
   background-color: #fff0e6;
+}
+
+.btn--item {
+  width: 7.5em;
+  height: 2.5em;
 }
 
 .slider {
@@ -582,5 +593,77 @@ template {
 .popular__price {
   font-weight: 600;
   line-height: 1.375em;
+}
+
+.pizza {
+  padding-top: 3.125em;
+  padding-bottom: 1.25em;
+}
+
+.pizza__title {
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 1.375em;
+  margin-bottom: 1.66em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 3.75em 1.25em;
+  justify-content: space-between;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.item__picture {
+  margin: 0 auto;
+  margin-bottom: .3125em;
+  position: relative;
+  transition: transform .2s ease-out;
+}
+
+.item__picture:hover {
+  transform: translateY(0.1875em);
+}
+
+.item__img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.item__title {
+  font-size: 1.25em;
+  line-height: 1.35em;
+  margin-bottom: .5em;
+}
+
+.item__desc {
+  font-weight: 400;
+  font-size: .875em;
+  line-height: 1.35em;
+  color: #73798C;
+  margin-bottom: .78em;
+}
+
+.item__footer {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item__price {
+  line-height: 1.375em;
+}
+
+.btn--item {
+  margin-right: 1.25em;
 }
 /*# sourceMappingURL=style.css.map */
