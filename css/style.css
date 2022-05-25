@@ -435,7 +435,6 @@ template {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  left: 0;
   z-index: 99;
   background-color: #fff;
 }
