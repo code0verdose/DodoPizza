@@ -599,18 +599,18 @@ template {
   padding-bottom: 1.25em;
 }
 
-.pizza__title {
-  font-weight: 700;
-  font-size: 1.5em;
-  line-height: 1.375em;
-  margin-bottom: 1.66em;
-}
-
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 3.75em 1.25em;
   justify-content: space-between;
+}
+
+.grid-title {
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 1.375em;
+  margin-bottom: 1.66em;
 }
 
 .item {
@@ -664,5 +664,10 @@ template {
 
 .btn--item {
   margin-right: 1.25em;
+}
+
+.combo {
+  padding-top: 3.125em;
+  padding-bottom: 1.25em;
 }
 /*# sourceMappingURL=style.css.map */
