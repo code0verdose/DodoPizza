@@ -844,4 +844,15 @@ template {
   color: #FFF;
   opacity: .7;
 }
+
+.gray-logo {
+  display: block;
+  margin-right: 1.8125em;
+}
+
+.copyright {
+  color: #FFFFFF;
+  opacity: .7;
+  margin-right: 4em;
+}
 /*# sourceMappingURL=style.css.map */
