@@ -2,3 +2,24 @@
   padding-top: 3.125em
   padding-bottom: 2.25em
   background-color: #464C55
+  &__top
+    display: flex
+    justify-content: space-between
+    margin-bottom: 5.81em
+  &__mid
+    display: flex
+    margin-bottom: 2.5em
+    position: relative
+    &::after
+      content: ""
+      position: absolute
+      height: 1px
+      width: 100%
+      background-color: #fff
+      opacity: .2
+      top: 7.62em
+      left: 0
+      z-index: 3
+  &__bottom
+    display: flex
+    align-items: center

@@ -716,10 +716,40 @@ template {
   background-color: #464C55;
 }
 
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5.81em;
+}
+
+.footer__mid {
+  display: flex;
+  margin-bottom: 2.5em;
+  position: relative;
+}
+
+.footer__mid::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+  opacity: .2;
+  top: 7.62em;
+  left: 0;
+  z-index: 3;
+}
+
+.footer__bottom {
+  display: flex;
+  align-items: center;
+}
+
 .footer-nav {
   display: flex;
   justify-content: space-between;
   flex-grow: 1;
+  margin-right: 4.875em;
 }
 
 .nav__column {
@@ -739,6 +769,78 @@ template {
   font-weight: 400;
   font-size: 1.125em;
   line-height: 1.44em;
+  color: #FFF;
+  opacity: .7;
+  margin-bottom: .55em;
+}
+
+.down {
+  display: flex;
+  margin-bottom: 1.81em;
+}
+
+.down__gplay {
+  margin-right: .31em;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.down__appstore {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.contacts {
+  text-align: right;
+}
+
+.contacts__tel {
+  font-weight: 600;
+  font-size: 1.625em;
+  line-height: 1em;
+  margin-bottom: .23em;
+  color: #FFF;
+  display: block;
+}
+
+.contacts__free {
+  font-weight: 400;
+  color: #fff;
+  font-size: .9375em;
+  line-height: 1.33em;
+  display: block;
+  opacity: .5;
+  margin-bottom: 1.73em;
+}
+
+.contacts__mail {
+  font-weight: 400;
+  color: #fff;
+  font-size: .9375em;
+  line-height: 1.33em;
+  display: block;
+  opacity: .9;
+}
+
+.info {
+  margin-right: 9.75em;
+}
+
+.info__sum {
+  font-weight: 600;
+  font-size: 1.625em;
+  line-height: 1em;
+  color: #FFF;
+  margin-bottom: .46em;
+  display: block;
+}
+
+.info__desc {
+  display: block;
+  font-weight: 400;
+  line-height: 1.375em;
   color: #FFF;
   opacity: .7;
 }
