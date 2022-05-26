@@ -724,7 +724,7 @@ template {
 
 .footer__mid {
   display: flex;
-  margin-bottom: 2.5em;
+  margin-bottom: 5em;
   position: relative;
 }
 
@@ -772,6 +772,25 @@ template {
   color: #FFF;
   opacity: .7;
   margin-bottom: .55em;
+  transition: .3s;
+}
+
+.nav__link:hover {
+  opacity: .9;
+  transition: .3s;
+  transform: translateX(0.31em);
+}
+
+.bottom__link {
+  margin-right: 1.25em;
+  line-height: 1.375em;
+  color: #fff;
+  opacity: .7;
+}
+
+.bottom__link:hover {
+  opacity: .9;
+  transition: .3s;
 }
 
 .down {
@@ -822,6 +841,13 @@ template {
   line-height: 1.33em;
   display: block;
   opacity: .9;
+  transition: .3s;
+}
+
+.contacts__mail:hover {
+  transition: .3s;
+  transform: translateY(-0.1em);
+  opacity: 1;
 }
 
 .info {
@@ -854,5 +880,20 @@ template {
   color: #FFFFFF;
   opacity: .7;
   margin-right: 4em;
+}
+
+.icons {
+  display: flex;
+  margin-left: auto;
+}
+
+.icons__link {
+  margin-left: .37em;
+  transition: .3s;
+}
+
+.icons__link:hover:hover {
+  transition: .3s;
+  transform: translateY(-0.2em);
 }
 /*# sourceMappingURL=style.css.map */
