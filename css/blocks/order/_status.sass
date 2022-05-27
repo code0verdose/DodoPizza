@@ -1,0 +1,45 @@
+.status
+  display: flex
+  align-items: center
+  justify-content: space-between
+  &__wrapper
+    display: flex
+    flex-direction: column
+    align-items: center
+    &:nth-child(2)
+      margin-left: 4.375em
+      margin-right: 3.3125em      
+  &__round
+    width: 2em
+    height: 2em
+    border-radius: 1000em
+    border: 1px solid #424242
+    position: relative
+  &__symbol
+    display: block
+    position: absolute
+    top: 50%
+    left: 50%
+    line-height: .625em
+    transform: translate(-50%, -50%)
+  &__text
+    font-size: .875em
+    line-height: 1.35em
+  &__accepted
+    opacity: .3
+
+.round-1::after
+  position: absolute
+  content: ""
+  width: 7.125em
+  border: .03em solid #000
+  top: 50%
+  left: 2.5em
+.round-2::after
+  position: absolute
+  content: ""
+  width: 7.125em
+  border: .03em dashed #000
+  opacity: .3
+  top: 50%
+  left: 2.5em

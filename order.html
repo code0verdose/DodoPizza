@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🍕 Додо Пицца | Заказ на доставку</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/icons/logo.svg"
+      type="image/x-icon"
+    />
+    <!-- Fonts start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header header--cart">
+      <div class="container">
+        <div class="logo-wrapper">
+          <a href="#" class="logo-link">
+            <div class="logo">
+              <div class="logo__picture">
+                <img
+                  src="images/icons/logo.svg"
+                  width="43"
+                  height="44"
+                  alt="DoDo - Logo"
+                  class="logo__img"
+                />
+              </div>
+              <div class="logo__text">
+                <div class="logo__letter">
+                  <img
+                    src="images/letter-logo.svg"
+                    width="192"
+                    height="22"
+                    alt="Додо Пицца"
+                    class="logo__img"
+                  />
+                </div>
+                <p class="logo__sub">Сеть пиццерий №1 в России</p>
+              </div>
+            </div>
+          </a>
+          <div class="status">
+            <div class="status__wrapper status__cart">
+              <div class="status__round round-1">
+                <div class="status__symbol">
+                  <img
+                    src="images/icons/check.svg"
+                    alt="✔️"
+                    width="10"
+                    height="9"
+                  />
+                </div>
+              </div>
+              <span class="status__text">Корзина</span>
+            </div>
+            <div class="status__wrapper status__checkout">
+              <div class="status__round round-2">
+                <div class="status__symbol">2</div>
+              </div>
+              <span class="status__text">Оформление заказа</span>
+            </div>
+            <div class="status__wrapper status__accepted">
+              <div class="status__round round-3">
+                <div class="status__symbol">3</div>
+              </div>
+              <span class="status__text">Заказ принят</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Main -->
+    <main>
+      <section class="order">
+        <div class="container">
+          <h1 class="order__title">Заказ на доставку</h1>
+          <!-- Left -->
+          <div class="order__data">
+            <form action="#" class="order__form">
+              <div class="order__name">
+                <span class="order__text">Имя</span>
+                <input
+                  type="text"
+                  name="name"
+                  class="order__input order__input--name"
+                  id="orderName"
+                />
+              </div>
+              <div class="order__number">
+                <span class="order__text">Номер телефона</span>
+                <input
+                  type="tel"
+                  name="tel"
+                  class="order__input order__input--tel"
+                  id="orderTel"
+                  value="+7"
+                />
+              </div>
+              <div class="order__address">
+                <span class="order__text">Куда доставить</span>
+                <input
+                  type="text"
+                  name="address"
+                  class="order__input order__input--address"
+                  id="orderAddress"
+                />
+              </div>
+              <div class="order__nav">
+                <a href="#" class="btn--tocart order__tocart tocart">
+                  <div class="tocart__picture">
+                    <img
+                      src="images/slider/l-gray.svg"
+                      alt="⬅️"
+                      width="6"
+                      height="12"
+                      class="tocart__img"
+                    />
+                  </div>
+                  <span class="tocart__text">Назад в корзину</span>
+                </a>
+              </div>
+            </form>
+          </div>
+          <!-- Right -->
+          <div class="order__list"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
