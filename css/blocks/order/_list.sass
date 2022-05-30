@@ -1,3 +1,43 @@
-.order
-  &__list
-    
+.list
+  &__wrapper
+    width: 21.25em
+    max-height: 31.25em
+    background: #FFF
+    box-shadow: 0 .31em 3.43em rgba(0, 0, 0, 0.05)
+    border-radius: .68em
+    padding: 1.87em 1.87em 2.75em 1.87em
+    display: flex
+    flex-direction: column
+  &__title
+    font-size: 1.12em
+    line-height: 1.38em
+    margin-bottom: .97em
+    font-weight: 600
+  &__price
+    display: flex
+    justify-content: space-between
+  &__pricetext
+    line-height: 1.37em
+    font-weight: 400
+  &__sum
+    font-weight: 600
+    line-height: 1.37em
+  &__items
+    overflow-y: scroll
+.item
+  &-str
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &-wrap
+    padding-top: 0.78em
+    padding-bottom: 0.78em
+  &__id
+    font-weight: 600
+    line-height: 1.37em
+  &__price
+    line-height: 1.37em
+  &__count
+    font-size: 0.75em
+    line-height: 1.16em
+    color: $textSecondary
